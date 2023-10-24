@@ -1,0 +1,25 @@
+
+
+select * from openquery(ORACLE,'select * from categories')
+
+select * from openquery(ORABD,'select * from cliente')
+
+
+
+insert into jardineria.CLIENTE select * from openquery(ORACLE,'select * from CLIENTE');
+insert into jardineria.DETALLE_PEDIDO select * from openquery(ORACLE,'select * from jardineria.DETALLE_PEDIDO');
+insert into jardineria.EMPLEADO select * from openquery(ORACLE,'select * from jardineria.EMPLEADO');
+insert into jardineria.GAMA_PRODUCTO select * from openquery(ORACLE,'select * from jardineria.GAMA_PRODUCTO');
+insert into jardineria.OFICINA select * from openquery(ORACLE,'select * from jardineria.OFICINA');
+insert into jardineria.PAGO select * from openquery(ORACLE,'select * from jardineria.PAGO');
+insert into jardineria.PEDIDO select * from openquery(ORACLE,'select * from jardineria.PEDIDO');
+insert into jardineria.PRODUCTO select * from openquery(ORACLE,'select * from jardineria.PRODUCTO');
+
+insert into northwind.CATEGORIES select * from openquery(ORACLE,'select * from northwind.CATEGORIES');
+insert into northwind.CUSTOMERS select * from openquery(ORACLE,'select * from northwind.CUSTOMERS');
+insert into northwind.EMPLOYEES select * from openquery(ORACLE,'select * from northwind.EMPLOYEES');
+insert into northwind.ORDER_DETAILS select * from openquery(ORACLE,'select * from northwind.ORDER_DETAILS');
+insert into northwind.ORDERS select * from openquery(ORACLE,'select * from northwind.ORDERS');
+insert into northwind.PRODUCTS select * from openquery(ORACLE,'select * from northwind.PRODUCTS');
+insert into northwind.SHIPPERS select * from openquery(ORACLE,'select * from northwind.SHIPPERS');
+insert into northwind.SUPPLIERS select * from openquery(ORACLE,'select * from northwind.SUPPLIERS');

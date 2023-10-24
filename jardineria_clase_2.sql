@@ -47,3 +47,18 @@ WHERE UPPER(P.ESTADO)='ENTREGADO'
 GROUP BY CL.NOMBRE_CLIENTE
 )
 )
+
+
+
+select * from oficina
+SELECT codigo_oficina, ciudad
+FROM oficina
+GROUP BY codigo_oficina, ciudad;
+
+2.	Actualice el límite de crédito de los clientes en un 25% adicional para los clientes que tengan un límite de crédito superior a  los $12000 y que viven en la ciudad de Miami.
+
+select * from cliente
+
+update cliente set LIMITE_CREDITO=(LIMITE_CREDITO*0.25)
+where LIMITE_CREDITO>=12000
+and lower(nvl(ciudad,'miami')) like '%miami%'

@@ -1,0 +1,4 @@
+Hacer primero vistas para enviar luego esa data a las dimensiones
+
+Tablas fact son meramente numericas
+
