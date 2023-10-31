@@ -1,0 +1,15 @@
+## aprovisionar db vagrant machine
+Pasos para EDA:
+
+
+1_Detectar variables, tipos, analisis descriptivo de variables.
+2_Conversiones de Datos, normalizar los datos al tipo definido.
+3_Detectar Nulos, NA, En Blanco
+4_Buscar Atipicos
+5_Analisis Variante y multivariante, agrupar, ver concentraciones de datos, graficar.
+
+Extra -> 6_Inputacion de Valores Nulos, quitar datos no utiles
+
+7_Reemplazo de valores categoricos, (Dependiendo del modelo) a numericos
+
+8_Estandarizar/Normalizar, 
