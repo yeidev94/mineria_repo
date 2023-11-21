@@ -13,3 +13,13 @@ Extra -> 6_Inputacion de Valores Nulos, quitar datos no utiles
 7_Reemplazo de valores categoricos, (Dependiendo del modelo) a numericos
 
 8_Estandarizar/Normalizar, 
+
+
+Analisis de componentes principales.
+
+Cuantos components de datos principales?
+Redicr la cantidad que explique la mayor parte de datos.
+
+Si el conjunto de datos se presta para una clasificacion
+
+ 
